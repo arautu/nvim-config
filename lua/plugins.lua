@@ -26,6 +26,7 @@ vim.cmd([[
 -- Install your plugins here
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim' -- Have packer manage itself
+  use 'windwp/nvim-autopairs' -- Autopairs, integrates with both comp and treesitter
 
   -- Colorschemes
   use 'lunarVim/horizon.nvim'
